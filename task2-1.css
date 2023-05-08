@@ -1,0 +1,21 @@
+.Stopwatch {
+  margin-left: 30px;
+  font-size: 50px;
+}
+
+#time {
+  font-size: 30px;
+  letter-spacing: 0.1em;
+}
+
+#buttons {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+}
+
+#start, #stop, #reset {
+  margin-top: 30px;
+  text-align: center;
+  padding: 10px;
+}
