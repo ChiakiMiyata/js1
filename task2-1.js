@@ -12,7 +12,7 @@ function countUp() {
   const h = Math.floor(d / 3600000);
   const m = Math.floor(d / 60000);
   const s = Math.floor(d % 60000 / 1000);
-  const ms = Math.floor(d % 1000);
+  const ms = String(d % 1000).padStart(3, '0');
 
   time.textContent = `${h}:${m}:${s}:${ms}`;
 
